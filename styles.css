@@ -1,0 +1,126 @@
+/* Styles généraux */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #ffe6f7, #e0f7fa);
+  color: #333;
+}
+
+header {
+  background-color: #ff80ab;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#accueil {
+  background: #ffccf9;
+  padding: 100px 20px;
+  color: #ff4081;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#apropos,
+#competences,
+#projets,
+#contact {
+  background: white;
+  margin: 20px auto;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  color: #ff80ab;
+}
+
+.skills {
+  margin: 20px auto;
+  max-width: 700px;
+}
+
+.skill {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.skill label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.bar {
+  background: #e0e0e0;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 10px;
+  background: #80deea;
+  transition: width 1s ease-in-out;
+}
+
+form {
+  margin-top: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background: #ff80ab;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #ff4081;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #ff80ab;
+  color: white;
+}
